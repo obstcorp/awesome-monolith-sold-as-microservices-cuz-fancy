@@ -7,12 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ObstcorpBackendApplication {
 
     public static void main(String[] args) {
-        try {
-            throw new Exception("Do hast doch nicht geglaubt, dass das einfach funktioniert? ;)");
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            System.exit(1);
-        }
+//        try {
+//            throw new Exception("Do hast doch nicht geglaubt, dass das einfach funktioniert? ;)");
+//        } catch (Exception ex) {
+//            ex.printStackTrace();
+//            System.exit(1);
+//        }
         SpringApplication.run(ObstcorpBackendApplication.class, args);
     }
 
