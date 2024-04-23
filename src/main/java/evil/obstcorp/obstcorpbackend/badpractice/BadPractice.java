@@ -3,7 +3,7 @@ package evil.obstcorp.obstcorpbackend.badpractice;
 
 public class BadPractice {
 
-    public static void main(String[] args) {
+    public static void bad() {
         System.out.println("Hello, World!"); // Printing a basic message
 
         // Declaring variables without meaningful names
